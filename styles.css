@@ -15,8 +15,8 @@ header {
     padding: 20px;
 }
 
-header > h1 {
-    color: #25272E;
+header h1 {
+    color: #24272E;
     text-align: center;
     font-family: Asap, sans-serif;
 }
@@ -74,9 +74,18 @@ header > h1 {
     border: 4px solid white;
     border-radius: 50%;
     margin: 0 20px;
-    padding: 10px;
     display: inline-block;
     transition: all 0.3s ease;
+}
+
+#r {
+    border-radius: 50%;
+}
+#p {
+    border-radius: 50%;
+}
+#s {
+    border-radius: 50%;
 }
 
 .choice:hover {
